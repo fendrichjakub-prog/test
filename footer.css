@@ -1,8 +1,0 @@
-/* footer.css */
-.site-footer{background:var(--ink);color:var(--paper);padding:56px 20px calc(32px + env(safe-area-inset-bottom,0px))}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .site-footer{background:#080d1a;color:#eef2fb}}
-.site-footer .cols{max-width:1080px;margin:0 auto;display:grid;gap:32px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
-.site-footer h3{font-size:1.05rem}
-.site-footer a{color:inherit;opacity:.85;text-decoration:none;display:block;padding:3px 0}
-.site-footer a:hover{opacity:1;text-decoration:underline}
-.site-footer .legal{max-width:1080px;margin:32px auto 0;padding-top:20px;border-top:1px solid rgba(255,255,255,.2);font-size:.9rem;opacity:.75}
