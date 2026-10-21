@@ -1,9 +1,0 @@
-/* header.css */
-.site-header{position:sticky;top:0;z-index:20;background:var(--paper);border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top,0px)}
-.site-header .bar{max-width:1080px;margin:0 auto;padding:12px 20px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
-.logo{font:800 1.4rem var(--head);color:var(--ink);text-decoration:none;letter-spacing:-.02em}
-.logo span{color:var(--star)}
-.slabs{display:flex;gap:8px;flex-wrap:wrap}
-.slabs a{color:var(--ink);text-decoration:none;font-weight:700;padding:9px 20px;border-radius:12px;background:var(--surface);border:1px solid var(--line);border-bottom-width:4px}
-.slabs a:hover{background:var(--star);color:#14213d;border-color:var(--star)}
-@media (max-width:640px){.site-header .bar{justify-content:center}.slabs a{padding:8px 14px;font-size:.95rem}}
